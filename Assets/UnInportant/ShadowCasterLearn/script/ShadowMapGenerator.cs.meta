@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 98e54596b2691e547bb09c53ca44a4ed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lightSource: {instanceID: 0}
+  - depthMap: {fileID: 8400000, guid: caf872c6eacfc1a48abc58a3b658b531, type: 2}
+  - depthShader: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: wpl_body2
+  m_Shader: {fileID: 4800000, guid: d27a377436ed85e4eb5d8f49023fce4c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _INDIR_CUBEMAP
+  - _SHADOW_RAMP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2fc1cf8fb7516f8489fc1eb0e8bb868e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IndirSpecCubemap:
+        m_Texture: {fileID: 8900000, guid: e5bb6a990b1823640a47d6d4677adfd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 272087095df78fa488d80670b5f79525, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBRMask:
+        m_Texture: {fileID: 2800000, guid: 145d7f6a4c1c0b94fbb816551a53eba3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowRampTex:
+        m_Texture: {fileID: 2800000, guid: 5151fc8e6b8ea854b9b1fc543f759d97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 1
+    - _Cull: 0
+    - _DirectOcclusion: 0.39
+    - _EmissionIntensity: 2
+    - _EnvColorLerp: 0.5
+    - _Gloss: 3.75
+    - _INDIR_CUBEMAP: 1
+    - _IndirDiffIntensity: 0.79
+    - _IndirDiffUpDirSH: 0
+    - _IndirSpecIntensity: 1.5
+    - _IndirSpecLerp: 0.352
+    - _IndirectOcclusion: 1
+    - _MainLightColorLerp: 1
+    - _Metallic: 1
+    - _NdotVAdd: 0
+    - _NormalScale: 1
+    - _OutlineClampScale: 1
+    - _OutlineWidth: 1.95
+    - _ReverseACESIntensity: 0.5
+    - _RimOffset: 0.01
+    - _RimThreshold: 0.5
+    - _Rim_Key: 0
+    - _SHADOW_RAMP: 1
+    - _ShadowOffset: 0.43
+    - _ShadowSmooth: 0.05
+    - _ShadowStrength: 0.37
+    - _Smoothness: 0.94
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionCol: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0.8}
+    - _SelfEnvColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _SelfLight: {r: 1.319508, g: 1.319508, b: 1.319508, a: 1}
+    - _ShadowColor: {r: 0.4188679, g: 0.4188679, b: 0.4188679, a: 1}
+  m_BuildTextureStacks: []

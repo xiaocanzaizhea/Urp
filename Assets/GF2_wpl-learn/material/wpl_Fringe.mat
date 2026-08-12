@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: wpl_Fringe
+  m_Shader: {fileID: 4800000, guid: f68fd9581cc093d4d81710202d860626, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _INDIR_CUBEMAP
+  - _Rim_Key
+  - _SHADOW_RAMP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 8d7abd9e6f8d8cb4195033e86100d8f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HairSpecTex:
+        m_Texture: {fileID: 2800000, guid: 55b9d19a858594b4cbf1098799890dba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighLightMask:
+        m_Texture: {fileID: 2800000, guid: 0329db534b02f99428fedf0add77f5f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IndirSpecCubemap:
+        m_Texture: {fileID: 8900000, guid: e5bb6a990b1823640a47d6d4677adfd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PBRMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowRampTex:
+        m_Texture: {fileID: 2800000, guid: bd88cbebde3e4e0408d5f08cc1ce39d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularShift:
+        m_Texture: {fileID: 2800000, guid: 3c7c98a4c961b2f4e8b95b21247f6cea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularShiftTex:
+        m_Texture: {fileID: 2800000, guid: 9cc29bdea24efec4193f70b9835e6678, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 1
+    - _AnisotropicOffset: 0.05
+    - _AnisotropicSlide: -0.05
+    - _BlinnPhongPow: 1
+    - _Cull: 0
+    - _DirectOcclusion: 0.1
+    - _EmissionIntensity: 5
+    - _EnvColorLerp: 1
+    - _FriColorMask: 0
+    - _FriStencil: 128
+    - _FriStencilComp: 3
+    - _FriStencilOp: 0
+    - _INDIR_CUBEMAP: 1
+    - _IndirDiffIntensity: 0.3
+    - _IndirDiffUpDirSH: 0
+    - _IndirSpecIntensity: 1
+    - _IndirSpecLerp: 0.3
+    - _MainLightColorLerp: 1
+    - _Metallic: 0
+    - _NdotVAdd: 2
+    - _NormalScale: 1
+    - _Occlusion: 1
+    - _Offset: 0.0976
+    - _OuterAlpha: 0.3
+    - _OuterStencilComp: 3
+    - _OutlineClampScale: 1
+    - _OutlineWidth: 1.8
+    - _ReverseACESIntensity: 0.44
+    - _RimOffset: 0.12
+    - _RimThreshold: 0.75
+    - _Rim_Key: 1
+    - _SHADOW_RAMP: 1
+    - _ScreenOffsetScaleX: 0.13
+    - _ScreenOffsetScaleY: 0.1
+    - _ShadowOffset: 0.5
+    - _ShadowSmooth: 0.46
+    - _ShadowStrength: 0.85
+    - _Smoothness: 0.3
+    - _SpecMinimum: 0
+    - _SpecularScale: 0.11
+    - _SpecularShiftValue: 0.49
+    - _SpecularWidth: 0.28
+    - _Stencil: 16
+    - _StencilComp: 3
+    - _StencilOp: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.8584906, b: 0.8584906, a: 0}
+    - _EmissionCol: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0.43396226, g: 0.43396226, b: 0.43396226, a: 0.8}
+    - _SelfEnvColor: {r: 0.41320753, g: 0.41320753, b: 0.41320753, a: 0.5}
+    - _SelfLight: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.9283287, g: 0.6517727, b: 0.6358175, a: 0}
+  m_BuildTextureStacks: []
